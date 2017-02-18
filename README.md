@@ -2,8 +2,8 @@
 
 Jekyll Starter for Web projects with the College of Agricultural and Environmental Sciences at UC Davis.
 
-Author: Cal Doval cydoval@ucdavis.edu
-Website: ediblecampus.ucdavis.edu
+Author: Zarra Stamboel tastamboel@ucdavis.edu & Cal Doval cydoval@ucdavis.edu
+Website: feedbackBot
 
 This project is built using Jekyll - please use http://jekyllrb.com/ for installation
 
