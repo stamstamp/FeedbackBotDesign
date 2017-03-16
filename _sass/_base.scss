@@ -10,6 +10,9 @@ header {
     height: auto;
     background-color: #ffffff;
     padding-top: 10px;
+    padding-bottom: 8px;
+    margin-bottom: 8px;
+    border-bottom: 1px solid $borders;
     .header_contents {
         @include container;
         .left_head {

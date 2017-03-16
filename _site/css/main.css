@@ -251,7 +251,10 @@ span.growing {
 header {
   height: auto;
   background-color: #ffffff;
-  padding-top: 10px; }
+  padding-top: 10px;
+  padding-bottom: 8px;
+  margin-bottom: 8px;
+  border-bottom: 1px solid #C8C7CC; }
   header .header_contents {
     max-width: 1400px;
     width: 80%;
@@ -1114,13 +1117,17 @@ nav ul.submenu {
 #title-input {
   width: 100%;
   height: 20%;
-  border: 0px; }
+  border: 0px;
+  padding-left: 8px;
+  margin-bottom: 16px; }
 
 #desc-input {
   width: 100%;
   height: 80%;
   font-size: 18px;
-  border: 0px; }
+  border: 0px;
+  padding-left: 8px;
+  padding-top: 8px; }
 
 .blog-feature {
   background-color: #EFEDE6;

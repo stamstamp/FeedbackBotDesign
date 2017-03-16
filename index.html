@@ -16,48 +16,36 @@ title:  Homepage
       </div>
     </div>
 </div>
-<div class="blog-feature">
-        {% for post in site.categories.blog limit:1 %}
-        <h2>
-        <a href="{{ post.url | prepend: site.baseurl }}">
-            <span class="blog-h">{{ post.title }}</span>
-            <span class="blog-d">{{ post.description }}</span>
-            <span class="blog-a">
-                Read More
-            </span>
 
-        </a>
-
-        </h2>
-
-
-        {% endfor %}
-
+<div class="input-group">
+  <span class="input-group-addon" id="basic-addon1">@</span>
+  <input type="text" class="form-control" placeholder="Username" aria-describedby="basic-addon1">
 </div>
-<div class="landing-feature-wrapper">
-    <div class="landing-feature">
-        <h3>Featured Garden</h3>
-        <div class="landing-feature-box">
-            {% for post in site.tags.feature %}
-                <div class="featured-garden-wrapper">
-                    <div class="featured-garden-image">
-                        <img src="/media/gardens/{{ post.imagesource }}/one.jpg" alt="">
-                    </div>
-                    <div class="featured-garden-text">
-                        <h2>
-                      <a class="post-link white-hover" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-                    </h2>
-                    <p>{{ post.description }}</p>
 
-                    {% if post.growing %}
-                    <p><b>What's Growing: </b><span>{{ post.growing }}</span></p>
-                    {% endif %}
+<div class="input-group">
+  <input type="text" class="form-control" placeholder="Recipient's username" aria-describedby="basic-addon2">
+  <span class="input-group-addon" id="basic-addon2">@example.com</span>
+</div>
 
-                    <a href="{{ post.url | prepend: site.baseurl }}" class="learn-more">Learn More</a>
-                    </div>
-                </div>
-            {% endfor %}
-        </div>
-        <a class="more-gardens" href="/gardens"><p>Browse all Gardens</p></a>
-    </div>
+<div class="input-group">
+  <span class="input-group-addon">$</span>
+  <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+  <span class="input-group-addon">.00</span>
+</div>
+
+<label for="basic-url">Your vanity URL</label>
+<div class="input-group">
+  <span class="input-group-addon" id="basic-addon3">https://example.com/users/</span>
+  <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3">
+</div>
+
+<div class="btn-group dropup">
+  <button type="button" class="btn btn-default">Dropup</button>
+  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    <span class="caret"></span>
+    <span class="sr-only">Toggle Dropdown</span>
+  </button>
+  <ul class="dropdown-menu">
+    <!-- Dropdown menu links -->
+  </ul>
 </div>
